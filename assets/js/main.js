@@ -1,4 +1,4 @@
-var foto = document.getElementsByClassName("foto");
+var foto = document.getElementsByClassName("panda");
 var cerrar = document.getElementsByClassName("cerrar");
 
 for(i= 0; i < foto.length; i++){
@@ -14,6 +14,6 @@ regresar.addEventListener("click", restaurar);
 
 function restaurar(){
   for(i = 0; i<foto.length; i++){
-    foto[i].style.display = "flex"
+    foto[i].style.display = "inline";
   }
 }
